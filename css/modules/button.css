@@ -1,0 +1,32 @@
+.btn {
+   font-size: 16px;
+   font-weight: 500;
+   background-color: transparent;
+   padding: 13px 45px;
+ }
+ 
+ .btn-1 {
+   color: #0B132A;
+   border: none;
+ }
+ 
+ .btn-main {
+   color: #F53855;
+   border-radius: 50px;
+   border: 1px solid #F53855;
+ }
+ .btn-main:hover{
+   background-color: #F53855;
+   color: #fff;
+ }
+ 
+ .nav__sign {
+   display: none;
+ }
+ 
+ .hamburger button {
+   border: none;
+   background-color: transparent;
+ 
+ }
+ 

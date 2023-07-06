@@ -1,0 +1,42 @@
+#statistic {
+   padding-top: 130px;
+
+}
+
+.statistic__item {
+   border-radius: 10px;
+   background: rgba(255, 255, 255, 1);
+}
+
+.statistic__card {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 36.5px;
+   padding: 72.5px 90px;
+}
+
+.card__right h3 {
+   color: #0B132A;
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 30px;
+}
+
+.card__right p {
+   padding-top: 5px;
+   color: #4F5665;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 30px;
+}
+
+.card__hr {
+   color: rgba(238, 239, 242, 1);
+   margin: 0 auto;
+   width: 70%;
+}
+
+.item__blur {
+   display: none;
+}

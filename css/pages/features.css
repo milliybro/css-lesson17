@@ -1,0 +1,36 @@
+#features{
+   padding-top: 200px;
+   padding-bottom: 127px;
+}
+.features__left img {
+   width: 100%;
+}
+
+.features__right h2 {
+   color: #0B132A;
+   font-size: 35px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 50px;
+}
+
+.features__right p {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color: #4F5665;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+}
+
+.features__ul li {
+   list-style-image: url(../../assets/images/check.svg);
+   margin-left: 30px;
+   padding-bottom: 15px;
+   color: #4F5665;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+}

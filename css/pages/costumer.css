@@ -1,0 +1,131 @@
+#costumer {
+   background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.00) 100%);
+   padding-top: 80px;
+   padding-bottom: 100px;
+}
+
+.costumer__container>h2 {
+   color: #0B132A;
+   text-align: center;
+   font-size: 35px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 50px;
+}
+
+.costumer__container>p {
+   padding-top: 20px;
+   padding-bottom: 155px;
+   color: #4F5665;
+   text-align: center;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+}
+.owl-carousel{
+   position: relative;
+}
+.owl-carousel .owl-dots {
+   position: absolute;
+   left: 0;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+   width: 10px;
+   transition: all 0.2s ease;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span {
+   width: 30px;
+   background: rgba(245, 56, 56, 1);
+}
+
+.owl-carousel .owl-dots .owl-dot:hover span {
+   background: rgba(245, 56, 56, 1);
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   font-size: 30px;
+   border: 1px solid rgba(245, 56, 56, 1);
+   background-color: white;
+   color: rgba(245, 56, 56, 1);
+}
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover{
+   background-color: rgba(245, 56, 56, 1);
+   color: white;
+}
+
+
+.owl-carousel .owl-nav button.owl-prev {
+   right: 75px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+   right: 0px;
+}
+
+.carousel__item {
+   border-radius: 10px;
+   border: 2px solid #DDD;
+   padding: 30px;
+}
+
+.item__hero {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.item__header {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   gap: 20px;
+}
+
+.item__header img {
+   width: 80px !important;
+}
+.item__name {
+   display: flex;
+   flex-direction: column;
+}
+
+.item__name h4 {
+   color: #0B132A;
+   text-align: center;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 30px;
+}
+
+.item__name p {
+   padding-top: 5px;
+   color: #4F5665;
+   text-align: center;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+}
+
+.item__content p {
+   padding-top: 20px;
+   color: #0B132A;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;
+   overflow: hidden;
+}

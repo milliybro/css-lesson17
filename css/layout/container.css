@@ -1,0 +1,14 @@
+.container,
+.container-lg {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  max-width: calc(1440px - 300px - 40px);
+}
+
+.container-lg {
+  max-width: 1440px;
+}
