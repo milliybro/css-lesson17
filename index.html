@@ -18,21 +18,26 @@
 </head>
 
 <body>
+   <button id="dark-light">
+      <img src="/assets/images/night.svg">
+   </button>
    <header id="header">
       <nav id="navbar">
          <div class="container nav__container">
             <div class="nav__logo">
-               <img src="assets/images/logo.svg">
-               <h3>
-                  Lasles<span>VPN</span>
-               </h3>
+               <a href="#">
+                  <img src="assets/images/logo.svg">
+                  <h3>
+                     Lasles<span>VPN</span>
+                  </h3>
+               </a>
             </div>
             <ul class="nav__menu">
-               <li><a href="#" class="nav__link">About</a></li>
-               <li><a href="#" class="nav__link">Features</a></li>
-               <li><a href="#" class="nav__link">Pricing</a></li>
-               <li><a href="#" class="nav__link">Testimonials</a></li>
-               <li><a href="#" class="nav__link">Help</a></li>
+               <li><a href="#statistic" class="nav__link">About</a></li>
+               <li><a href="#features" class="nav__link">Features</a></li>
+               <li><a href="#plan" class="nav__link">Pricing</a></li>
+               <li><a href="#network" class="nav__link">Testimonials</a></li>
+               <li><a href="#costumer" class="nav__link">Help</a></li>
             </ul>
             <div class="nav__sign">
                <button class="btn btn-1">
@@ -42,11 +47,32 @@
                   Sign Up
                </button>
             </div>
-            <div class="hamburger">
-               <button>
-                  <img src="assets/images/menu.svg">
-               </button>
+            <div class="hamburger" id="navbar-open">
+               <img src="assets/images/menu.svg" alt="hamburger-logo">
             </div>
+            <div id="navbar-responsive">
+               <ul class="res-nav-list">
+                  <li class="res-nav-item"><a href="#statictic" class="res-nav-link">About</a></li>
+                  <li class="res-nav-item"><a href="#features" class="res-nav-link">Features</a></li>
+                  <li class="res-nav-item"><a href="#plan" class="res-nav-link">Pricing</a></li>
+                  <li class="res-nav-item"><a href="#network" class="res-nav-link">Testimonials</a></li>
+                  <li class="res-nav-item"><a href="#costumer" class="res-nav-link">Help</a></li>
+                  <li>
+                     <button class="btn btn-1">
+                        Sign In
+                     </button>
+                  </li>
+                  <li>
+                     <button class="btn btn-main">
+                        Sign Up
+                     </button>
+                  </li>
+
+               </ul>
+               <button id="navbar-close">
+                  <img src="assets/images/close.svg" alt="close">
+               </button>
+
          </div>
       </nav>
       <section id="home">

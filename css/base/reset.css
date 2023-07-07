@@ -8,7 +8,9 @@
 *::before {
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
 }
@@ -27,4 +29,38 @@ ul {
 
 body *{
   font-family: 'Roboto', sans-serif;
+}
+
+#home, #statistic, #features, #plan, #network, #costumer #footer{
+  padding-top: 200px !important;
+}
+
+#dark-light {
+  /* margin-left: 10px;
+  padding: 1.5px;
+  width: 33px !important;
+  height: 18px;
+  border-radius: 15px;
+  background-color: black;
+  appearance: none;
+  margin-top: -20px; */
+
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  top: 100px;
+  right: 0px;
+  width: 70px;
+  height: 60px;
+  z-index: 10;
+  background-color: rgb(40, 34, 102);
+  transition: 1s;
+  border: none;
+  border-top-right-radius: none;
+  border-bottom-right-radius: none;
+  object-fit: cover;
+  
 }

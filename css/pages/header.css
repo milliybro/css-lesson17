@@ -4,7 +4,12 @@
 
 #navbar {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #FFF;
+  opacity: 0.9;
 }
 
 .nav__container {
@@ -23,16 +28,77 @@
   font-weight: 400;
 }
 
-.nav__logo {
+.nav__logo a {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
+.nav__logo h3 {
+  color: #0B132A;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.navbar-shrink {
+  margin-top: -30px;
+  margin-bottom: -50px;
+  box-shadow: 5px 0 10px 3px #000;
+  transition: .5s;
+}
+
+#navbar-responsive {
+  position: fixed;
+  background: url(../images/background.png);
+  background: #fff;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.res-nav-list {
+  list-style-type: none;
+
+}
+
+.res-nav-item {
+  margin: 30px 0px;
+  text-align: center;
+
+}
+
+.res-nav-link {
+  font-size: 30px;
+  color: #000;
+  text-decoration: none;
+
+}
+
+.res-nav-btn {
+  padding: 10px 20px;
+  font-size: 30px;
+}
+
+#navbar-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 /* home section */
 
 #home {
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 .home__container {

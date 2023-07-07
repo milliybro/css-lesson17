@@ -1,0 +1,66 @@
+#dark-light {
+   position: fixed;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-top-left-radius: 50%;
+   border-bottom-left-radius: 50%;
+   top: 100px;
+   right: 0px;
+   width: 70px;
+   height: 60px;
+   z-index: 10;
+   background-color: rgb(40, 34, 102);
+   transition: 1s;
+   border: none;
+   border-top-right-radius: none;
+   border-bottom-right-radius: none;
+   object-fit: cover;
+}
+.light #navbar,
+.light #home,
+.light #statistic,
+.light #features,
+.light #plan,
+.light #network,
+.light #costumer,
+.light #footer {
+   background: linear-gradient(#000 , #000) !important;
+   color: white !important;
+}
+.light #home h1,
+.light #navbar a,
+.light #navbar h3,
+.light .nav__sign .btn-1 
+ {
+   color: #fff;
+}
+
+.light .statistic__item,
+.light .plan__card,
+.light .costumer__subscribe{
+   background-color: rgb(43, 40, 40);
+   
+}
+
+.light .statistic__item h3,
+.light .statistic__item p,
+.light .features__right h2,
+.light .plan-container h2,
+.light .network__container h2,
+.light .costumer__container h2{
+   color: #fff;
+}
+
+.light .carousel__item h4,
+.light .carousel__item p{
+   color: #fff;
+}
+.light .footer__logo h3,
+.light .footer__left p,
+.light .footer__right h3,
+.light .footer__right a{
+   color: #fff;
+}
+
+
